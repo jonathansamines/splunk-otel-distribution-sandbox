@@ -1,6 +1,12 @@
 version: "2"
 services:
 
+  # Redis (for test app)
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
+
   # Jaeger
   jaeger-all-in-one:
     image: jaegertracing/all-in-one:latest
