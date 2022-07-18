@@ -6,7 +6,7 @@
     "@opentelemetry/instrumentation-hapi": "^0.29.0",
     "@opentelemetry/instrumentation-http": "^0.30.0",
     "@opentelemetry/instrumentation-ioredis": "^0.30.0",
-    "@splunk/otel": "^1.1.0",
+    "@splunk/otel": "^1.2.0",
     "hapi-pino": "^10.1.0"
   }
 }
