@@ -40,3 +40,18 @@ Results:
 curl -X POST -d @./package.json http://127.0.0.1:4040/hello
 world
 ```
+
+## Run hapi server test with manual bootstrap
+
+Run service:
+
+```bash
+> node -r ./manual-boostrap.js hapi-server-test
+```
+
+Results:
+
+```bash
+curl -X POST -d @./package.json http://127.0.0.1:4040/hello
+world
+```
